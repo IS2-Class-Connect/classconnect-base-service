@@ -11,6 +11,7 @@
 - [Project Structure](#project-structure)
 - [Support](#support)
 - [License](#license)
+- [Code Style](#code-style)
 
 ## Description
 
@@ -140,3 +141,25 @@ This template is open source and licensed under the MIT license. Contributions a
 ## License
 
 This project is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+
+## Code Style
+
+We use **Prettier** and **ESLint** to maintain consistent code formatting and quality. Use the following commands:
+
+- To check and fix lint issues:
+
+```bash
+$ npm run lint
+```
+
+- To format files using Prettier:
+
+```bash
+$ npm run format
+```
+
+- To check formatting without making changes:
+
+```bash
+$ npm run format:check
+```
